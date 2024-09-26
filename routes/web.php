@@ -24,6 +24,9 @@ Route::get('/projecten', [FEHomeController::class, 'projecten'])->name('projecte
 Route::get('/bestaand', [FEHomeController::class, 'bestaand'])->name('bestaand');
 Route::get('/nieuwbouw', [FEHomeController::class, 'nieuwbouw'])->name('nieuwbouw');
 
+Route::post('/submit-contact', [FEHomeController::class, 'submitContactForm'])->name('contact.submit');
+
+
 // Route::get('/', function () {
 //     return Redirect::to(config('app.url') . '/admin/login');
 //       // return Redirect::to('url');

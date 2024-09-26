@@ -13,7 +13,7 @@
                      <a class="nav-link " aria-current="page" href="/#">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Contact">Contact</a>
+                     <a class="nav-link" href="/#Contact">Contact</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="projecten">Projecten</a>
@@ -25,7 +25,7 @@
                      <a class="nav-link" href="nieuwbouw">Nieuwbouw</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Offerte">Offerte</a>
+                     <a class="nav-link" href="/#Offerte">Offerte</a>
                   </li>
                </ul>
             </div>

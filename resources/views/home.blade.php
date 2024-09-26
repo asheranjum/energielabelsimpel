@@ -79,44 +79,48 @@
             <div class="form-content align-items-center">
                <h1>Doe een aanvraag:</h1>
                <br>
-               <form class="row form-style" style="background-color: white;" method="post" action="#">
+               <form class="row form-style" style="background-color: white;" method="POST" action="{{ route('contact.submit') }}">
+                  @csrf <!-- Add CSRF protection -->
+                   @if (session('success'))
+                      <div class="alert alert-success">
+                          {{ session('success') }}
+                      </div>
+                    @endif
+                
                   <div class="col-12 col-md-6">
-                     <label for="first_name" class="form-label">Voornaam</label>
-                     <input type="text" class="form-control w-100" id="first_name" name="first_name"
-                        placeholder="Voornaam">
+                      <label for="first_name" class="form-label">Voornaam</label>
+                      <input type="text" class="form-control w-100" id="first_name" name="first_name" placeholder="Voornaam" required>
                   </div>
                   <div class="col-12 col-md-6">
-                     <label for="last_name" class="form-label">Achternaam</label>
-                     <input type="text" class="form-control w-100" id="last_name" name="last_name"
-                        placeholder="Achternaam">
+                      <label for="last_name" class="form-label">Achternaam</label>
+                      <input type="text" class="form-control w-100" id="last_name" name="last_name" placeholder="Achternaam" required>
                   </div>
                   <div class="col-12 col-md-12">
-                     <label for="address_1" class="form-label">Woon of bedrijfsadres (met plaats en postcode)</label>
-                     <input type="text" class="form-control w-100" id="address_1" name="address_1"
-                        placeholder="Straatnaam 1, 1111 AA, Plaatsnaam">
+                      <label for="address_1" class="form-label">Woon of bedrijfsadres (met plaats en postcode)</label>
+                      <input type="text" class="form-control w-100" id="address_1" name="address_1" placeholder="Straatnaam 1, 1111 AA, Plaatsnaam" required>
                   </div>
                   <div class="col-12 col-md-12">
-                     <label for="address_2" class="form-label">Projectadres (met plaats en postcode)</label>
-                     <input type="text" class="form-control w-100" id="address_2" name="address_2"
-                        placeholder="Straatnaam 1, 1111 AA, Plaatsnaam">
+                      <label for="address_2" class="form-label">Projectadres (met plaats en postcode)</label>
+                      <input type="text" class="form-control w-100" id="address_2" name="address_2" placeholder="Straatnaam 1, 1111 AA, Plaatsnaam">
                   </div>
                   <div class="col-12 col-md-6">
-                     <label for="email" class="form-label">Email</label>
-                     <input type="email" class="form-control w-100" id="email" name="email" placeholder="test@email.nl">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control w-100" id="email" name="email" placeholder="test@email.nl" required>
                   </div>
                   <div class="col-12 col-md-6">
-                     <label for="phone" class="form-label">Telefoonnummer</label>
-                     <input type="text" class="form-control w-100" id="phone" name="phone" placeholder="0612345678">
+                      <label for="phone" class="form-label">Telefoonnummer</label>
+                      <input type="text" class="form-control w-100" id="phone" name="phone" placeholder="0612345678" required>
                   </div>
                   <div class="mb-3">
-                     <label for="question" class="form-label">Uw vraag</label>
-                     <textarea type="text" class="form-control " id="question" name="question" rows="5">Beste Energielabelsimpel,
-                        </textarea>
+                      <label for="question" class="form-label">Uw vraag</label>
+                      <textarea type="text" class="form-control" id="question" name="question" rows="5" required>Beste Energielabelsimpel,</textarea>
                   </div>
-                  <div class="form-button d-grid gap-2 col-12 ">
-                     <button class="form-btn btn-primary">Dien de aanvraag in!</button>
+                  <div class="form-button d-grid gap-2 col-12">
+                      <button class="form-btn btn-primary" type="submit">Dien de aanvraag in!</button>
                   </div>
-               </form>
+                </form>
+
+
             </div>
          </div>
       </div>

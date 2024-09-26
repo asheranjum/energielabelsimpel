@@ -40,10 +40,14 @@
             <h2>New Contact Query</h2>
         </div>
         <div class="content">
-            <p><strong>Name:</strong>  {{$details['name']}}</p>
-            <p><strong>Email:</strong> <a href="mailto:{{$details['email']}}">  {{$details['email']}}</a></p>
-            <p><strong>Message:</strong></p>
-            <p>{{$details['message']}}</p>
+            <p><strong>Voornaam:</strong>  {{$details['first_name']}} </p>
+            <p><strong>Achternaam:</strong> {{$details['last_name']}}</p>
+            <p><strong>Woon of bedrijfsadres (met plaats en postcode):</strong>  {{$details['address_1']}}</p>
+            <p><strong>Projectadres (met plaats en postcode):</strong>  {{$details['address_2']}}</p>
+            <p><strong>Email:</strong> <a href="mailto:{{$details['email']}}">{{$details['email']}}</a></p>
+            <p><strong>Telefoonnummer:</strong> <a href="tell:{{$details['phone']}}">{{$details['phone']}}</a></p>
+            <p><strong>Uw vraag:</strong></p>
+            <p>{{$details['question']}}</p>
         </div>
         <div class="footer">
             <p>This is an automated message. Please do not reply directly to this email.</p>

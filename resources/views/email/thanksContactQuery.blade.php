@@ -7,7 +7,7 @@
 	<meta name="x-apple-disable-message-reformatting">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="telephone=no" name="format-detection">
-	<title>Radionostalgie</title>
+	<title>Energielabelsimpel</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
 	<style type="text/css">
 		.adm {
@@ -302,7 +302,7 @@
 						<tr style="border-collapse:collapse"></tr>
 						<tr style="border-collapse:collapse">
 							<td align="center" style="padding:0;Margin:0">
-								<table class="es-header-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#c3cf3d;width:600px" cellspacing="0" cellpadding="0" bgcolor="#044767" align="center">
+								<table class="es-header-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#147d3e;width:600px" cellspacing="0" cellpadding="0" bgcolor="#044767" align="center">
 									<tr style="border-collapse:collapse">
 										<td align="center" style="Margin:0;padding-top:35px;padding-bottom:35px;padding-left:35px;padding-right:35px; font-size: 30px; color: white; font-weight: 500;">
 
@@ -341,7 +341,7 @@
 																		<br /> <br />
 																		Best regards,
 																		<br />
-																		Radionostalgie Team
+																		Energielabelsimpel Team
 
 																</td>
 															</tr>
@@ -363,7 +363,7 @@
 									style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:600px">
 									<tr style="border-collapse:collapse">
 										<td align="left"
-											style="Margin:0;padding-top:35px;padding-left:35px;padding-right:35px;padding-bottom:40px; background-color: #6f6f6f;">
+											style="Margin:0;padding-top:35px;padding-left:35px;padding-right:35px;padding-bottom:40px; background-color: #d7d7d7;">
 											<table width="100%" cellspacing="0" cellpadding="0"
 												style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
 												<tr style="border-collapse:collapse">
@@ -375,10 +375,10 @@
 															<tr style="border-collapse:collapse">
 																<td align="center"
 																	style="padding:0;Margin:0;padding-bottom:15px;font-size:0">
-																	<a href="http://radionostalgie.cz/" target="_blank" rel="noopener noreferrer">
-																	<img src="https://radionostalgie.vercel.app/assets/images/logo-white.png"
+																	<a href="https://energielabelsimpel.nl" target="_blank" rel="noopener noreferrer">
+																	<img src="https://energielabelsimpel.nl/templates/jilles/assets/img/logo.png"
 																		alt="logo"
-																		style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; width: 30%;"
+																		style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; width: 60%;"
 																		title="logo" > </a>
 
 																</td>
@@ -391,18 +391,18 @@
 													
 												</tr>
 
-												<tr>
+												{{-- <tr>
 													<td align="center" class="es-p15t es-p20b" style="font-size:0">
 														<table cellpadding="0" cellspacing="0" class="es-table-not-adapt es-social">
 															<tbody>
 																<tr>
 																	<td align="center" valign="top" class="es-p10r">
-																		<a target="_blank" href="https://www.facebook.com/www.radionostalgie.cz">
+																		<a target="_blank" href="https://www.facebook.com/www.Energielabelsimpel.cz">
 																			<amp-img src="https://tlr.stripocdn.email/content/assets/img/social-icons/logo-white/facebook-logo-white.png" alt="Fb" title="Facebook" width="32" height="32" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" style="width: 32px; height: 32px; --loader-delay-offset: 187ms !important;"><img decoding="async" alt="Fb" title="Facebook" src="https://tlr.stripocdn.email/content/assets/img/social-icons/logo-white/facebook-logo-white.png"  width="32px" height="32px"></amp-img>
 																		</a>
 																	</td>
 																	<td align="center" valign="top" class="es-p10r">
-																		<a target="_blank" href="https://www.instagram.com/radionostalgie.cz">
+																		<a target="_blank" href="https://www.instagram.com/Energielabelsimpel.cz">
 																			<amp-img src="https://tlr.stripocdn.email/content/assets/img/social-icons/logo-white/instagram-logo-white.png" alt="Ig" title="Instagram" width="32" height="32" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" style="width: 32px; height: 32px; --loader-delay-offset: 187ms !important;"><img decoding="async" alt="Ig" title="Instagram" src="https://tlr.stripocdn.email/content/assets/img/social-icons/logo-white/instagram-logo-white.png" width="32px" height="32px"></amp-img>
 																		</a>
 																	</td>
@@ -411,7 +411,7 @@
 															</tbody>
 														</table>
 													</td>
-												</tr>
+												</tr> --}}
 
 												<tr>
 													<td align="center"  >

@@ -117,14 +117,13 @@
         <div class="analytics-container">
     <div class="row">
      
-        @php $posts = DB::table('posts')->where('status','Published')->count(); @endphp
-        @php $Slider = DB::table('sliders')->where('status','Published')->count(); @endphp
+        @php $posts = DB::table('projects')->where('status','Published')->count(); @endphp
         
         
         <div class="col-md-3">
             <div class="panel panel-bordered panel-primary dasb-card">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Published Blogs</h3>
+                    <h3 class="panel-title">Published Projects</h3>
                     <div class="count">
                         <h1>{{ $posts }}</h1>
                         <i class="icon_ voyager-categories"></i>
