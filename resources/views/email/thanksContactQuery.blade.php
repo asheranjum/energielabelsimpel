@@ -333,11 +333,11 @@
 																<td align="left" style="padding:0;Margin:0;padding-top:0px;padding-bottom:20px">
 																	<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#777777;font-size:16px">
 																		Beste  {{$details['first_name']}},
-																		<br /> <br />
+																		<br /> 
 																		Hartelijk dank voor het indienen van uw aanvraag.
-																		<br /> <br />
+																		<br /> 
 																		<strong> Samenvatting van uw aanvraag: </strong>
-																		<br /> <br />
+																		<br />
 																		<ul>
 																			<li> <strong> Naam: </strong> {{$details['first_name']}}  </li>
 																			<li> <strong> Achternaam: </strong>  {{$details['last_name']}} </li>

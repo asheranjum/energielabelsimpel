@@ -63,7 +63,7 @@ class FEHomeController extends Controller
             'address_2' => $request->address_2,
             'phone' => $request->phone,
             'question' => $request->question,
-            'title' => 'Thank you for your inquiry'  // Adding the title key
+            'title' => 'Bedankt voor uw aanvraag'  // Adding the title key
         ];
 
         // Send email notifications
