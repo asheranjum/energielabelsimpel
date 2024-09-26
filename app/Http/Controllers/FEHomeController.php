@@ -68,7 +68,7 @@ class FEHomeController extends Controller
 
         // Send email notifications
 
-        \Mail::to("asheranjum50@gmail.com")->send(new \App\Mail\ContactNotification($details));
+        \Mail::to(env('ADMIN_EMAIL'))->send(new \App\Mail\ContactNotification($details));
 		\Mail::to($request->email)->send(new \App\Mail\ThanksContactQuery($details));
 
         // Redirect or return a response 
