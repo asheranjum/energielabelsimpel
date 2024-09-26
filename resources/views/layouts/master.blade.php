@@ -23,7 +23,21 @@
   @include('layouts.header') 
   @yield('content')
   @include('layouts.footer') 
+<script>
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetElement = document.querySelector(this.getAttribute('href'));
+        window.scrollTo({
+            top: targetElement.offsetTop - 100, // Adjust this value to match your header height
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+</script>
 </body>
 
 </html>

@@ -332,16 +332,30 @@
 															<tr style="border-collapse:collapse">
 																<td align="left" style="padding:0;Margin:0;padding-top:0px;padding-bottom:20px">
 																	<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#777777;font-size:16px">
-																		Hi {{$details['first_name']}},
+																		Beste  {{$details['first_name']}},
 																		<br /> <br />
+																		Hartelijk dank voor het indienen van uw aanvraag.
+																		<br /> <br />
+																		<strong> Samenvatting van uw aanvraag: </strong>
+																		<br /> <br />
+																		<ul>
+																			<li> <strong> Naam: </strong> {{$details['first_name']}}  </li>
+																			<li> <strong> Achternaam: </strong>  {{$details['last_name']}} </li>
+																			<li> <strong> Woon- of bedrijfsadres: </strong> {{$details['address_1']}}  </li>
+																			<li> <strong> Projectadres </strong> {{$details['address_2']}}  </li>
+																			<li> <strong> E-mailadres: </strong>  {{$details['email']}} </li>
+																			<li> <strong> Telefoonnummer: </strong>  {{$details['phone']}} </li>
+																			<li> <strong> Uw vraag: </strong> {{$details['question']}}  </li>
+																		</ul>
 
-																		Thank you for reaching out to us! We've received your message and appreciate you taking the time to write. Here's a summary of your query for your records.
+
+																		Wij nemen zo snel mogelijk contact met u op. Mocht u in de tussentijd vragen hebben, dan kunt u contact met ons opnemen via info@energielabelsimpel.nl of telefonisch via <a href="tel:0619027995">0619027995</a>.
 
 												
 																		<br /> <br />
-																		Best regards,
+																		Met vriendelijke groet,
 																		<br />
-																		Energielabelsimpel Team
+																		Energielabelsimpel
 
 																</td>
 															</tr>

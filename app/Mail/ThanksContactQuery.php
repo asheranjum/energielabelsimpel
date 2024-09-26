@@ -33,7 +33,7 @@ class ThanksContactQuery extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Thank You for Contacting Energielabelsimpel',
+            subject: 'Bevestiging van uw aanvraag',
         );
     }
 
