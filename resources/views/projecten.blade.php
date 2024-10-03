@@ -22,7 +22,7 @@
             <div class="row h-100 align-items-center">
                <div class="col-md-4 h-100 d-flex justify-content-center">
                   <div class="project-image">
-                     <img src="assets/img/Bestaand.jpeg" class="w-100" alt="">
+                      <img src="{{ asset('storage/' . $project->image) }}" class="w-100" alt="{{ $project->title }}">
                   </div>
                </div>
                <div class="col-md-8">
@@ -59,7 +59,9 @@
                </div>
                <div class="col-md-4 h-100 d-flex justify-content-center">
                   <div class="project-image">
-                     <img src="assets/img/Bestaand.jpeg" class="w-100" alt="">
+                     
+                     <img src="{{ asset('storage/' . $project->image) }}" class="w-100" alt="{{ $project->title }}">
+
                   </div>
                </div>
             </div>
