@@ -586,7 +586,7 @@ input[type=text]:focus, input[type=email]:focus,input[type=number]:focus {
 }
 
 .form-button .form-btn:hover {
-  background: linear-gradient(135deg, var(--primary-dark), var(--primary-light) , var(--primary)); /* Gradient hover */
+  background: linear-gradient(135deg, var(--primary-light),  var(--primary-dark) , var(--primary)); /* Gradient hover */
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Slight inner glow */
   color: #ffffff; /* Ensure the text stays visible */
 }
