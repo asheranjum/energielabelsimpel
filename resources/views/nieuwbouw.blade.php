@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Home')
+@section('title', 'Nieuwbouw')
 @section('content')
 
    <div class="breadcrum-section">

@@ -25,16 +25,48 @@
   @include('layouts.footer') 
 <script>
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetElement = document.querySelector(this.getAttribute('href'));
-        window.scrollTo({
-            top: targetElement.offsetTop - 100, // Adjust this value to match your header height
-            behavior: 'smooth'
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to handle smooth scrolling to an anchor with a delay for full page load
+    function scrollToAnchor() {
+        if (window.location.hash) {
+            const targetElement = document.querySelector(window.location.hash);
+            if (targetElement) {
+                // Use setTimeout to ensure the page is fully loaded before scrolling
+                setTimeout(() => {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100, // Adjust for header height
+                        behavior: 'smooth'
+                    });
+                }, 200); // Increase delay if needed
+            }
+        }
+    }
+
+    // Scroll when coming to the page with a hash in the URL
+    scrollToAnchor();
+
+    // Handle smooth scrolling when hash changes (if links are clicked)
+    window.addEventListener('hashchange', function() {
+        scrollToAnchor();
+    });
+
+    // Handle smooth scrolling for internal anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetElement = document.querySelector(this.getAttribute('href'));
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 100, // Adjust for header height
+                    behavior: 'smooth'
+                });
+            }
         });
     });
 });
+
 
 
 </script>

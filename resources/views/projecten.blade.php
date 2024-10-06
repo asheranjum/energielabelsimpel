@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Home')
+@section('title', 'Projecten')
 @section('content')
 
    <!---------------hero section------------->
