@@ -104,7 +104,7 @@
                   </div>
                   <div class="col-12 col-md-6">
                       <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control w-100" id="email" name="email" placeholder="test@email.nl" required>
+                      <input type="email" class="form-control w-100" id="email" name="email" placeholder="Naam@email.nl" required>
                   </div>
                   <div class="col-12 col-md-6">
                       <label for="phone" class="form-label">Telefoonnummer</label>
