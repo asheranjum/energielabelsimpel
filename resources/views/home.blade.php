@@ -115,8 +115,11 @@
                       <textarea type="text" class="form-control" id="question" name="question" rows="5" required>Beste Energielabelsimpel,</textarea>
                   </div>
                   <div class="form-button d-grid gap-2 col-12">
-                      <button class="form-btn btn-primary" type="submit">Dien de aanvraag in!</button>
-                  </div>
+    <button class="form-btn btn-primary" type="submit">
+        <span>Dien de aanvraag in!</span>
+    </button>
+</div>
+
                 </form>
 
 

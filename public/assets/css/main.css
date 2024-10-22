@@ -552,7 +552,6 @@ input[type=text]:focus, input[type=email]:focus,input[type=number]:focus {
   font-size: 17px;
 }
 
-
 .form-button .form-btn {
   color: #ffffff;
   background-color: var(--primary);
@@ -566,35 +565,46 @@ input[type=text]:focus, input[type=email]:focus,input[type=number]:focus {
   margin-bottom: 60px;
   margin: 0px 0px;
   border-radius: 10px;
-  cursor: pointer; /* Add pointer cursor */
-  transition: background 0.4s ease, box-shadow 0.4s ease; /* Smooth transition */
+  cursor: pointer;
   position: relative;
-  overflow: hidden; /* For internal hover effects */
+  overflow: hidden;
+  z-index: 1;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
 }
 
 .form-button .form-btn::before {
   content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300%;
-  height: 300%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
-  transform: translate(-50%, -50%) scale(0);
-  transition: transform 0.6s ease;
-  border-radius: 50%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(
+    135deg ,
+    var(--primary-light) 0%,    /* Start with light color */
+    var(--primary-dark) 50%,    /* Transition to dark color in the middle */
+    var(--primary) 100%         /* End with primary color */
+  );
+  transition: width 0.8s ease; /* Smoothly animate width */
   z-index: 0;
 }
 
 .form-button .form-btn:hover::before {
-  transform: translate(-50%, -50%) scale(1);
+  width: 100%; /* Expand to full width */
 }
 
 .form-button .form-btn:hover {
-  background: linear-gradient(135deg, var(--primary-light),  var(--primary-dark) , var(--primary)); /* Gradient hover */
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Slight inner glow */
-  color: #ffffff; /* Ensure the text stays visible */
+  background-color: var(--primary); /* Keep main background color */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Slight glow effect */
+  color: #ffffff; /* Ensure text stays visible */
+  z-index: 1;
 }
+
+.form-button .form-btn span {
+  position: relative;
+  z-index: 2; /* Ensure text stays above the loading bar */
+}
+
 
 .contact-section
 {
