@@ -35,7 +35,7 @@
          <div class="row  h-100 ">
             <div class="col-lg-6 ">
                <div class="card" onclick="location.href='/bestaand'">
-                  <h5 class="card-title text-center">Bestaand</h5>
+                  <h5 class="card-title text-center">Bestaande bouw</h5>
                   <div class=" card-overlay" style="background-image: url('/assets/img/Bestaand.jpeg');">
                      <div class="content">
                          <ul class="list">
@@ -60,7 +60,7 @@
                              <li> <a href="/nieuwbouw#Daglicht"> Daglicht en ventilatieberekening  </a> </li>
                              <li> <a href="/nieuwbouw#MPG-berekening"> MPG-berekening  </a> </li>
                              <li> <a href="/nieuwbouw#Energielabel"> Energielabel bij oplevering  </a> </li>
-                             <li> <a href="/nieuwbouw#Stikstofberekening"> Stikstofberekening  </a> </li>
+                             <li> <a href="/nieuwbouw#Koellastberekening"> Koellastberekening  </a> </li>
                          </ul>
                      </div>
                  </div>
@@ -133,9 +133,8 @@
             <div class="col-lg-6">
                <div class="about-text">
                   <h1 class="mb-9">Wie ben ik</h1>
-                  <p class="pb-2">
-                     Mijn naam is Jilles Haverkort en ben opgeleid als bouwkundig ingenieur aan de Hanzehogeschool in Groningen. Met energielabelsimpel voorzie ik bouwprofessionals zoals architecten, ingenieursbureaus en projectontwikkelaars 
-                     aan de vereiste stukken voor de aanvraag van de omgevingsvergunning. Ook help ik bedrijven en particulieren met het in kaart brengen van de energetische prestatie van gebouwen en geef ik hierover met veel plezier advies. 
+                  <p class="pb-2">Mijn naam is Jilles Haverkort en ben opgeleid als bouwkundig ingenieur aan de Hanzehogeschool in Groningen. Met energielabelsimpel voorzie ik bouwprofessionals zoals architecten,
+ingenieursbureaus en projectontwikkelaars van de vereiste stukken voor de aanvraag van de omgevingsvergunning. Ook help ik bedrijven en particulieren met het in kaart brengen van de energetische prestatie van gebouwen en geef ik hierover met veel plezier advies. 
                   <p class="pb-3">
                      Energielabelsimpel maakt verduurzaming mogelijk!
                   </p>
@@ -162,7 +161,7 @@
                <div class="about-text">
                   <h1 class="mb-4">Contact</h1>
                   <p class="mb-4">Email:  <a href="mailto:info@energielabelsimpel.nl">info@energielabelsimpel.nl</a></p>
-                  <p>Mobiel: <a href="tel:+31(0)619027995">+31(0)619027995</a></p>
+                  <p>Tel.:  <a href="tel:+31(0)619027995">+31(0)619027995</a></p>
                </div>
                <div class="contact-icons">
 

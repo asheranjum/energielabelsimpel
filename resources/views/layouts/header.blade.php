@@ -12,14 +12,16 @@
                   <li class="nav-item">
                      <a class="nav-link " aria-current="page" href="/#">Home</a>
                   </li>
+                    @if (Route::is('index')) <!-- For Home Page -->
                   <li class="nav-item">
                      <a class="nav-link" href="/#Contact">Contact</a>
                   </li>
+                  @endif
                   <li class="nav-item">
                      <a class="nav-link" href="projecten">Projecten</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="bestaand">Bestaand</a>
+                     <a class="nav-link" href="bestaand">Bestaande bouw</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="nieuwbouw">Nieuwbouw</a>
