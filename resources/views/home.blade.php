@@ -42,7 +42,7 @@
                              <li> <a href="/bestaand#energielabel"> Energielabel</a></li>
                              <li> <a href="/bestaand#quickscan"> Quickscan</a></li>
                              <li> <a href="/bestaand#energielabel-verbeteradvies"> Energielabel verbeteradvies</a></li>
-                             <li> <a href="/bestaand#energiebesparings-advies"> Energiebesparings-advies</a></li>
+                             <li> <a href="/bestaand#energiebesparingsadvies"> Energiebesparingsadvies</a></li>
                          </ul>
                      </div>
                  </div>

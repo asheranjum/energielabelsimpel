@@ -11,7 +11,7 @@
                <li> <a href="#energielabel"> Energielabel</a></li>
                <li> <a href="#quickscan"> Quickscan</a></li>
                <li> <a href="#energielabel-verbeteradvies"> Energielabel verbeteradvies</a></li>
-               <li> <a href="#energiebesparings-advies"> Energiebesparings-advies</a></li>
+               <li> <a href="#energiebesparingsadvies"> Energiebesparingsadvies</a></li>
            </ul>
          </div>
       </div>
@@ -59,7 +59,7 @@
       </div>
    </section>
 
-   <section id="energiebesparings-advies" class="text-contend-section" >
+   <section id="energiebesparingsadvies" class="text-contend-section" >
       <div class="container">
          <div class="row  h-100 align-items-center mt-2">
             <div class="col-lg-12">
