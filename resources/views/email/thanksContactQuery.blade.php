@@ -390,7 +390,7 @@
 																<td align="center"
 																	style="padding:0;Margin:0;padding-bottom:15px;font-size:0">
 																	<a href="https://energielabelsimpel.nl" target="_blank" rel="noopener noreferrer">
-																	<img src="https://energielabelsimpel.nl/templates/jilles/assets/img/logo.png"
+																	<img src="https://energielabelsimpel.nl/assets/img/logo.png"
 																		alt="logo"
 																		style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; width: 60%;"
 																		title="logo" > </a>
