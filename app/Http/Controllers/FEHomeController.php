@@ -42,7 +42,7 @@ class FEHomeController extends Controller
             'phone' => 'required|string|max:20',
             'question' => 'required|string|max:2000',
         ]);
-
+    
         // Save the contact data to the database
         $contact = new Contact();
         $contact->first_name = $request->first_name;
@@ -53,7 +53,7 @@ class FEHomeController extends Controller
         $contact->phone = $request->phone;
         $contact->question = $request->question;
         $contact->save();
-
+    
         // Prepare details for the emails
         $details = [
             'first_name' => $request->first_name,
@@ -65,14 +65,26 @@ class FEHomeController extends Controller
             'question' => $request->question,
             'title' => 'Bedankt voor uw aanvraag'  // Adding the title key
         ];
-
+    
+        // Ensure the email addresses are valid before sending
+        $adminEmail = env('ADMIN_EMAIL');
+        $userEmail = $request->email;
+    
+        if (!filter_var($adminEmail, FILTER_VALIDATE_EMAIL)) {
+            return back()->withErrors(['error' => 'Invalid admin email.']);
+        }
+    
+        if (!filter_var($userEmail, FILTER_VALIDATE_EMAIL)) {
+            return back()->withErrors(['error' => 'Invalid user email.']);
+        }
+    
         // Send email notifications
-
-        \Mail::to(env('ADMIN_EMAIL'))->send(new \App\Mail\ContactNotification($details));
-		\Mail::to($request->email)->send(new \App\Mail\ThanksContactQuery($details));
-
-        // Redirect or return a response 
+        \Mail::to($adminEmail)->send(new \App\Mail\ContactNotification($details));
+        \Mail::to($userEmail)->send(new \App\Mail\ThanksContactQuery($details));
+    
+        // Redirect or return a response
         return redirect()->to('/#Offerte')->with('success', 'Your message has been submitted successfully!');
     }
+    
 
 }
