@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Project;
 use App\Contact;
+use Illuminate\Support\Facades\Http;
+
 class FEHomeController extends Controller
 {
     //
