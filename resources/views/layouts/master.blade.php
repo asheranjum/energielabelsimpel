@@ -23,11 +23,17 @@
   @include('layouts.header') 
   @yield('content')
   @include('layouts.footer') 
+
+
 <script>
 
 
-
 document.addEventListener("DOMContentLoaded", function() {
+
+     const phoneNumber = "+31 (0)6 19027995";
+        const phoneLink = `<a href="tel:${phoneNumber.replace(/ /g, '')}">${phoneNumber}</a>`;
+        document.getElementById("phone-number").innerHTML = phoneLink;
+        
     // Function to handle smooth scrolling to an anchor with a delay for full page load
     function scrollToAnchor() {
         if (window.location.hash) {

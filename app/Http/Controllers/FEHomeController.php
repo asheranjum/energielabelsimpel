@@ -41,6 +41,7 @@ class FEHomeController extends Controller
             'email' => 'required|email',
             'phone' => 'required|string|max:20',
             'question' => 'required|string|max:2000',
+            'g-recaptcha-response' => 'required|captcha',
         ]);
     
         // Save the contact data to the database

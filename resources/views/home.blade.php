@@ -114,6 +114,16 @@
                       <label for="question" class="form-label">Uw vraag</label>
                       <textarea type="text" class="form-control" id="question" name="question" rows="5" required>Beste Energielabelsimpel,</textarea>
                   </div>
+
+  <!-- Include Google reCAPTCHA script (ensure it's at the end) -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<!-- reCAPTCHA inside the form -->
+<div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
+@if ($errors->has('g-recaptcha-response'))
+    <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+@endif
+
                   <div class="form-button d-grid gap-2 col-12">
     <button class="form-btn btn-primary" type="submit">
         <span>Dien de aanvraag in!</span>
@@ -164,17 +174,18 @@ ingenieursbureaus en projectontwikkelaars van de vereiste stukken voor de aanvra
                <div class="about-text">
                   <h1 class="mb-4">Contact</h1>
                   <p class="mb-4">Email:  <a href="mailto:info@energielabelsimpel.nl">info@energielabelsimpel.nl</a></p>
-                  <p>Tel.:  <a href="tel:+31(0)619027995">+31(0)619027995</a></p>
+                 <p>Tel.: <span id="phone-number"></span></p>
                </div>
                <div class="contact-icons">
 
-                  <div class="icon-social">
-                     <a href="https://wa.me/+31619027995" class="whatsapp">
-                        <img src="assets/img/icons/whatsapp@3x.png" alt=" "></a>
+                 <div class="icon-social">
+                  <a href="https://wa.me/+31619027995" class="whatsapp" target="_blank" rel="noopener noreferrer">
+                     <img src="assets/img/icons/whatsapp@3x.png" alt="WhatsApp">
+                  </a>
                   </div>
              
                   <div class="icon-social">
-                     <a href="https://wa.me/+31619027995" class="whatsapp">
+                     <a href="#" class="whatsapp">
                         <img src="assets/img/icons/linkin@3x.png" alt=" "></a>
                   </div>
              
