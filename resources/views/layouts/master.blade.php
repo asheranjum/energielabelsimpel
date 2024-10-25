@@ -15,6 +15,10 @@
    <meta name="author" content="Energielabelsimpel">
    <meta name="Resource-type" content="Document" />
      <link rel="shortcut icon" href="/assets/img/favicon.png">
+
+
+
+
 </head>
 
 <body>

@@ -32,6 +32,7 @@ class FEHomeController extends Controller
 
     public function submitContactForm(Request $request)
     {
+
         // Validate the form data
         $validated = $request->validate([
             'first_name' => 'required|string|max:255',

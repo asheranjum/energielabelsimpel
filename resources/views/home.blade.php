@@ -2,6 +2,21 @@
 @section('title', 'Home')
 @section('content')
 
+<!-- Include reCAPTCHA v3 script with site key from .env -->
+<script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
+
+<script>
+    grecaptcha.ready(function() {
+        document.getElementById("submit-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Stop the form from submitting until reCAPTCHA is done
+            grecaptcha.execute('{{ config('services.recaptcha.site_key') }}', { action: 'submit' }).then(function(token) {
+                // Add the token to a hidden input field and submit the form
+                document.getElementById('recaptcha-token').value = token;
+                event.target.submit(); // Submit the form after token is added
+            });
+        });
+    });
+</script>
 
    <!---------------hero section------------->
    <section id="hero-section" class="home-section featured-section">
@@ -78,7 +93,7 @@
             <div class="form-content align-items-center">
                <h1>Doe een aanvraag:</h1>
                <br>
-               <form class="row form-style" style="background-color: white;" method="POST" action="{{ route('contact.submit') }}">
+               <form class="row form-style" style="background-color: white;" method="POST" id="submit-form" action="{{ route('contact.submit') }}">
                   @csrf <!-- Add CSRF protection -->
                    @if (session('success'))
                       <div class="alert alert-success">
@@ -114,15 +129,12 @@
                       <label for="question" class="form-label">Uw vraag</label>
                       <textarea type="text" class="form-control" id="question" name="question" rows="5" required>Beste Energielabelsimpel,</textarea>
                   </div>
+  <input type="hidden" name="g-recaptcha-response" id="recaptcha-token">
 
-  <!-- Include Google reCAPTCHA script (ensure it's at the end) -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-<!-- reCAPTCHA inside the form -->
-<div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
 @if ($errors->has('g-recaptcha-response'))
     <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
 @endif
+
 
                   <div class="form-button d-grid gap-2 col-12">
     <button class="form-btn btn-primary" type="submit">
@@ -195,6 +207,8 @@ ingenieursbureaus en projectontwikkelaars van de vereiste stukken voor de aanvra
          </div>
       </div>
    </section>
+
+
 
 
 @endsection
