@@ -42,8 +42,23 @@ class FEHomeController extends Controller
             'email' => 'required|email',
             'phone' => 'required|string|max:20',
             'question' => 'required|string|max:2000',
-            'g-recaptcha-response' => 'required|captcha',
+            'g-recaptcha-response' => 'required',
         ]);
+
+
+        $recaptchaResponse = $request->input('g-recaptcha-response');
+        $recaptchaSecret = env('RECAPTCHA_SECRET_KEY');
+        
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => $recaptchaSecret,
+            'response' => $recaptchaResponse,
+        ]);
+        
+        $result = $response->json();
+        
+        if (!$result['success'] || $result['score'] < 0.5) { // Adjust score threshold as needed
+            return back()->withErrors(['g-recaptcha-response' => 'reCAPTCHA verification failed.']);
+        }
     
         // Save the contact data to the database
         $contact = new Contact();
