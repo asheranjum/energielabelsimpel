@@ -72,7 +72,7 @@ Ventileren kan doormiddel van twee manieren. Ten eerste natuurlijke ventilatie w
             <div class="col-lg-12">
                <h2 class="mb-3">MPG-berekening</h2>
                <p class="pb-3">
-               De MilieuPrestatie Gebouwen (MPG) geeft aan wat de milieubelasting is van de materialen die in een gebouw worden toegepast gedurende de volledige levenscyclus van het gebouw. </p>
+               De Milieu Prestatie Gebouwen (MPG) geeft aan wat de milieubelasting is van de materialen die in een gebouw worden toegepast gedurende de volledige levenscyclus van het gebouw. </p>
                <p class="pb-3">
                  
 Om de MPG eenvoudig en overzichtelijk te houden, worden de verschillende manieren waarop het milieu wordt belast samengevat in één waarde: de schaduwkosten van een materiaal. Dit zijn de kosten die theoretisch nodig zijn om de milieuschade als gevolg van het materiaalgebruik volledig te herstellen. </p>

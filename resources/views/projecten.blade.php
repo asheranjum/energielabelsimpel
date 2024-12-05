@@ -27,7 +27,7 @@
                </div>
                <div class="col-md-8">
                   <div class="content">
-                     <p>{{$project->title}} </p>
+                     <h4 class="mb-4">{{$project->title}} </h4>
 
                      {!! $project->sdesc !!}
                   </div>
@@ -52,7 +52,7 @@
 
                    @if($index == 0) <h3>Projecten</h3>  @endif
 
-                    <p>{{$project->title}} </p>
+                    <h4 class="mb-4">{{$project->title}} </h4>
                      
                      {!! $project->sdesc !!}
                   </div>
