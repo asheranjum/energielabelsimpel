@@ -1,6 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+@font-face {
+  font-family: 'ganticregular';
+  src: url('../fonts/gantic_regular.woff2') format('woff2');
+  
+}
+
 
 /*
 * Main css file for responsive
@@ -13,7 +20,11 @@
 
 *{
   /* font-family: 'Rajdhani', sans-serif !important; */
-  font-family: "Inter", sans-serif !important;
+  /* font-family: "Inter", sans-serif !important; */
+    font-family: 'ganticregular', sans-serif;
+
+
+
 }
 html {
   scroll-behavior: smooth;
@@ -57,7 +68,8 @@ body {
   color: black;
   font-style: bold;
   font-weight: 700;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.6em;
   padding-left: 0px;
   padding-right: 0px;
   font-weight: 500;
@@ -157,7 +169,7 @@ body {
 
 .gotoForm {
 
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 700;
   color: white;
   margin-bottom: 60px;
@@ -184,24 +196,27 @@ a:hover
 }
 
 
-.hero-content h1 {
-
-  font-size: 44px;
-  font-weight: 700;
+.hero-content h1 {  
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 4px;
 }
 
 
 .hero-content p {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 500;
-  margin-top: 3px;
-  /* background: red; */
-  width: 100%;
-  margin: 0px auto;
-  padding: 0 50px;
-  padding: 0 50px;
-}#footer .footer-top .footer-logo
+    color: #ffffff;
+    font-size: 2.2rem;
+    line-height: 35px;
+    font-weight: 500;
+    margin-top: 3px;
+    /* background: red; */
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 50px;
+    padding: 0 50px;
+}
+#footer .footer-top .footer-logo
 
 .hero-buttons .btn
  {
