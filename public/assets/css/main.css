@@ -16,12 +16,14 @@
   --primary:#147d3e;
   --primary-dark: #d9c628; /* Darker shade of the primary color */
   --primary-light: #e13f24; /* Lighter shade of the primary color */
+  --font-scale: 1.4; /* Increases size by 40% */
 }
 
 *{
   /* font-family: 'Rajdhani', sans-serif !important; */
   /* font-family: "Inter", sans-serif !important; */
     font-family: 'ganticregular', sans-serif;
+    font-size-adjust: 0.5;
 
 
 
@@ -32,9 +34,14 @@ html {
 
 /*
 **/
-body {
+/* body {
   font-family: "Inter", sans-serif !important;
+} */
+
+body {
+  font-family: 'ganticregular', sans-serif;
 }
+
 
 /*
 * header
@@ -65,18 +72,16 @@ body {
   padding-right: 10px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: black;
-  font-style: bold;
-  font-weight: 700;
-  /* font-size: 18px; */
-  font-size: 1.6em;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-weight: 500;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
- 
+    letter-spacing: 1.3px;
 }
 
 /* .navbar-nav {
@@ -169,7 +174,7 @@ body {
 
 .gotoForm {
 
-  font-size: 34px;
+  font-size: 26px;
   font-weight: 700;
   color: white;
   margin-bottom: 60px;
@@ -197,7 +202,7 @@ a:hover
 
 
 .hero-content h1 {  
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 0;
     letter-spacing: 4px;
@@ -206,7 +211,7 @@ a:hover
 
 .hero-content p {
     color: #ffffff;
-    font-size: 2.2rem;
+    font-size: 24px;
     line-height: 35px;
     font-weight: 500;
     margin-top: 3px;
@@ -268,8 +273,8 @@ border-radius: 25px;
 .about-text p {
 
   color: #147d3e;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 3px;
   margin-bottom: 2px;
 
@@ -355,6 +360,16 @@ border-radius: 25px;
   margin-top: 3px;
   margin-bottom: 2px;
 }
+
+.text-contend-section ul
+{
+  color: #147d3e;
+  /*  color: #212529; Black text color*/
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
 .list-style {
   /* list-style: none; */
   font-size: 20px;
@@ -409,7 +424,7 @@ border-radius: 25px;
 {
   background-color: transparent;
   border: none;
-  width: 62%;
+  width: 90%;
   margin: 0px auto;
   cursor: pointer;
 }

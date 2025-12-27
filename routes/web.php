@@ -23,6 +23,7 @@ Route::get('/', [FEHomeController::class, 'index'])->name('index');
 Route::get('/projecten', [FEHomeController::class, 'projecten'])->name('projecten');
 Route::get('/bestaand', [FEHomeController::class, 'bestaand'])->name('bestaand');
 Route::get('/nieuwbouw', [FEHomeController::class, 'nieuwbouw'])->name('nieuwbouw');
+Route::get('/isolatieplan', [FEHomeController::class, 'isolatieplan'])->name('isolatieplan');
 
 Route::post('/submit-contact', [FEHomeController::class, 'submitContactForm'])->name('contact.submit');
 

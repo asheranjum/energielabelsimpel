@@ -117,7 +117,7 @@ Om de MPG eenvoudig en overzichtelijk te houden, worden de verschillende maniere
             <div class="col-lg-12">
                <h2 class="mb-3">Koellastberekening</h2>
                <p class="pb-3">
-                 Met een koellastberekening kan er aangetoond worden of er in een woongebouw voldoende koelcapaciteit wordt gerealiseerd d.m.v. actieve koeling. Bijvoorbeeld door een koudenet of vrije koeling met een bodemwarmtepomp. Sinds 1 juli 2024 zijn er aanvullende voorwaarden om aan te tonen dat het risico op oververhitting voldoende wordt beperkt. In de BENG-berekening dient de TO-juli grenswaarde van 1,20 niet overschreden te worden. Doormiddel van een koellastberekening kan er aangetoond worden dat oververhitting voldoende wordt beperkt en hiermee de TO-juli eis voldoet.
+                  Met een koelbehoefteberekening kan er aangetoond worden of er in een woongebouw voldoende koelcapaciteit wordt gerealiseerd d.m.v. actieve koeling. Bijvoorbeeld door een koudenet of vrije koeling met een bodemwarmtepomp. Sinds 1 juli 2024 zijn er aanvullende voorwaarden om aan te tonen dat het risico op oververhitting voldoende wordt beperkt. In de BENG-berekening dient de TO-juli grenswaarde van 1,20 niet overschreden te worden. Doormiddel van een koelbehoefteberekening kan er aangetoond worden dat oververhitting voldoende wordt beperkt en hiermee de TO-juli eis voldoet.
                </p>
                
              

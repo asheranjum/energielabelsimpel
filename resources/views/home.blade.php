@@ -48,7 +48,7 @@
    <section id="whyus" class="home-section whyus-section service-section">
       <div class="container">
          <div class="row  h-100 ">
-            <div class="col-lg-6 ">
+            <div class="col-lg-4 ">
                <div class="card" onclick="location.href='/bestaand'">
                   <h5 class="card-title text-center">Bestaande bouw</h5>
                   <div class=" card-overlay" style="background-image: url('/assets/img/Bestaand.jpeg');">
@@ -65,7 +65,7 @@
           
 
             </div>
-            <div class="col-lg-6 ">
+            <div class="col-lg-4 ">
                <div class="card" onclick="location.href='/nieuwbouw'">
                   <h5 class="card-title text-center">Nieuwbouw</h5>
                   <div class=" card-overlay" style="background-image: url('/assets/img/Nieuwbouw.jpg');">
@@ -77,6 +77,16 @@
                              <li> <a href="/nieuwbouw#Energielabel"> Energielabel bij oplevering  </a> </li>
                              <li> <a href="/nieuwbouw#Koellastberekening"> Koellastberekening  </a> </li>
                          </ul>
+                     </div>
+                 </div>
+               </div>
+            </div>
+            <div class="col-lg-4 ">
+               <div class="card" onclick="location.href='/isolatieplan'">
+                  <h5 class="card-title text-center">Isolatieplan aanvragen</h5>
+                  <div class=" card-overlay" style="background-image: url('/assets/img/nu-begun.png');">
+                     <div class="content">
+                       
                      </div>
                  </div>
                </div>
@@ -168,7 +178,7 @@ ingenieursbureaus en projectontwikkelaars van de vereiste stukken voor de aanvra
             <div class="col-lg-2"></div>
             <div class=" col-lg-4">
                <div class="about-images">
-                  <img src="assets/img/owner@4x.png" alt="owner" class="img-responsive">
+                  <img src="assets/img/owner-new.jpg" alt="owner" class="img-responsive">
                </div>
                <div class="name-text">
                   <h4>Ing. Jilles Haverkort</h4>

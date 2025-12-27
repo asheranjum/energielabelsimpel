@@ -24,6 +24,10 @@ class FEHomeController extends Controller
     {
         return view('nieuwbouw');
     }
+    public function isolatieplan()
+    {
+        return view('isolatieplan');
+    }
     public function projecten()
     {
         $projects = Project::where('status','published')->get();

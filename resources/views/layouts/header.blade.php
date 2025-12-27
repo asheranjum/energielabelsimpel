@@ -27,6 +27,9 @@
                      <a class="nav-link" href="nieuwbouw">Nieuwbouw</a>
                   </li>
                   <li class="nav-item">
+                     <a class="nav-link" href="isolatieplan">Isolatieplan aanvragen</a>
+                  </li>
+                  <li class="nav-item">
                      <a class="nav-link" href="/#Offerte">Offerte</a>
                   </li>
                </ul>
