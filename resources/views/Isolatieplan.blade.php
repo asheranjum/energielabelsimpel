@@ -36,10 +36,10 @@
                <p class="pb-3">De cruciale eerste stap: Het isolatieplan </p>
                <p class="pb-3">Volgens de procedure van Nij Begun is het opstellen van een isolatieplan op maat een noodzakelijke stap om de subsidie te kunnen aanvragen en te ontvangen. </p>
                <p class="pb-3">Energielabelsimpel is uw onafhankelijke gediplomeerde specialist. Wij zorgen voor een compleet en technisch onderbouwd isolatieplan dat voldoet aan alle eisen van Nij Begun. </p>
-               <p class="pb-3">Controleer uw postcode om te zien of u recht heeft op deze subsidie, doe dit via de officiele website van Nij Begun op www.isolatie.nijbegun.nl </p>
+               <p class="pb-3">Controleer uw postcode om te zien of u recht heeft op deze subsidie, doe dit via de officiele website van Nij Begun op <a href="https://isolatie.nijbegun.nl/" target="_blank" >www.isolatie.nijbegun.nl</a> </p>
                <p class="pb-3">Valt u in de postcode en voldoet u aan de voorwaarden? Start dan nu en maak een account aan bij Nij Begun en doe de aanvraag voor het opstellen van het gratis isolatieplan bij Energielabelsimpel.  </p>
                <p class="pb-3">Vervolgens plannen wij een afspraak in en kunt u na ontvangst van het isolatieplan beginnen met de uitvoering van uw isolatie en ventilatieplannen.  </p>
-               <p class="pb-3">Kijk voor de meest recente voorwaarden op: <br /> www.isolatie.nijbegun.nl  </p>
+               <p class="pb-3">Kijk voor de meest recente voorwaarden op: <br /> <a href="https://isolatie.nijbegun.nl/" target="_blank" >www.isolatie.nijbegun.nl</a>  </p>
                
             </div>
          </div>

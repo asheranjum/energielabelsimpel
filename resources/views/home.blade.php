@@ -75,7 +75,7 @@
                              <li> <a href="/nieuwbouw#Daglicht"> Daglicht en ventilatieberekening  </a> </li>
                              <li> <a href="/nieuwbouw#MPG-berekening"> MPG-berekening  </a> </li>
                              <li> <a href="/nieuwbouw#Energielabel"> Energielabel bij oplevering  </a> </li>
-                             <li> <a href="/nieuwbouw#Koellastberekening"> Koellastberekening  </a> </li>
+                             <li> <a href="/nieuwbouw#Koellastberekening"> Koelbehoefteberekening  </a> </li>
                          </ul>
                      </div>
                  </div>
@@ -211,6 +211,14 @@ ingenieursbureaus en projectontwikkelaars van de vereiste stukken voor de aanvra
                         <img src="assets/img/icons/linkin@3x.png" alt=" "></a>
                   </div>
              
+               </div>
+            </div>
+            
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-3">
+               <div class="centraal-logo">
+                 <a href="https://platform.centraalregistertechniek.nl/Vakbedrijven/Bedrijfspagina?id=5fe7dfee-66e8-40bd-bdc6-c6015126d8a8" target="_blank"><img src="/assets/img/centraal.png" alt="centraalregistertechniek" ></a>
                </div>
             </div>
            

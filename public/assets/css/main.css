@@ -451,6 +451,19 @@ border-radius: 25px;
   z-index: 1;
 }
 
+
+.service-section .col-lg-4:last-child .card-overlay:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
 .service-section .card-overlay .content {
   position: relative;
   z-index: 111;
@@ -661,6 +674,20 @@ input[type=text]:focus, input[type=email]:focus,input[type=number]:focus {
   gap: 20px;
 }
 
+.centraal-logo
+{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.centraal-logo img
+{
+  width: 150px;
+}
+
 .breadcrum-section
 {
   background-color: #E8E8E8;
@@ -721,6 +748,11 @@ input[type=text]:focus, input[type=email]:focus,input[type=number]:focus {
 .project-section .content p
 {
   font-size: 18px;
+}
+
+p a
+{
+  color: #147d3e;
 }
 /*--------------------------------------------------------------
 # Footer
