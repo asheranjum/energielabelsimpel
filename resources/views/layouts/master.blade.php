@@ -18,7 +18,22 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17706802616"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-17706802616');
+</script>
+
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17706802616/aozgCNWa674BELi7oftB',
+      'value': 1.0,
+      'currency': 'EUR'
+  });
+</script>
 </head>
 
 <body>
