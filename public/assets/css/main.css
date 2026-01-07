@@ -1,12 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
+ /*@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); 
 
-@font-face {
-  font-family: 'ganticregular';
-  src: url('../fonts/gantic_regular.woff2') format('woff2');
+/*@font-face {*/
+/*  font-family: 'ganticregular';*/
+/*  src: url('../fonts/gantic_regular.woff2') format('woff2');*/
   
-}
+/*}*/
 
 
 /*
@@ -21,9 +21,9 @@
 
 *{
   /* font-family: 'Rajdhani', sans-serif !important; */
-  /* font-family: "Inter", sans-serif !important; */
-    font-family: 'ganticregular', sans-serif;
-    font-size-adjust: 0.5;
+   font-family: "Inter", sans-serif !important; 
+    /*font-family: 'ganticregular', sans-serif;*/
+    /*font-size-adjust: 0.5;*/
 
 
 
@@ -73,15 +73,15 @@ body {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     color: black;
+    font-style: bold;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 0px;
     padding-right: 0px;
-    font-weight: 600;
+    font-weight: 500;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    letter-spacing: 1.3px;
 }
 
 /* .navbar-nav {
@@ -174,10 +174,10 @@ body {
 
 .gotoForm {
 
-  font-size: 26px;
-  font-weight: 700;
-  color: white;
-  margin-bottom: 60px;
+font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 60px;
 }
 
 a:hover
@@ -201,18 +201,15 @@ a:hover
 }
 
 
-.hero-content h1 {  
-    font-size: 3.5rem;
+.hero-content h1 {
+    font-size: 44px;
     font-weight: 700;
-    line-height: 0;
-    letter-spacing: 4px;
 }
 
 
 .hero-content p {
     color: #ffffff;
     font-size: 24px;
-    line-height: 35px;
     font-weight: 500;
     margin-top: 3px;
     /* background: red; */
@@ -221,6 +218,7 @@ a:hover
     padding: 0 50px;
     padding: 0 50px;
 }
+
 #footer .footer-top .footer-logo
 
 .hero-buttons .btn

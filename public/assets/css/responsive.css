@@ -2,8 +2,13 @@
 @media (max-width: 1366px) {
   .service-section .card
   {
-    width:80%;
+    width:100%;
   }
+  .main-header .nav-item
+ {
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
 }
 
