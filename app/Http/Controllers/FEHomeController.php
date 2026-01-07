@@ -26,7 +26,7 @@ class FEHomeController extends Controller
     }
     public function isolatieplan()
     {
-        return view('isolatieplan');
+        return view('Isolatieplan');
     }
     public function projecten()
     {
