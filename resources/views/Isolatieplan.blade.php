@@ -40,7 +40,7 @@
                <p class="pb-3">Valt u in de postcode en voldoet u aan de voorwaarden? Start dan nu en maak een account aan bij Nij Begun en doe de aanvraag voor het opstellen van het gratis isolatieplan bij Energielabelsimpel.  </p>
                <p class="pb-3">Vervolgens plannen wij een afspraak in en kunt u na ontvangst van het isolatieplan beginnen met de uitvoering van uw isolatie en ventilatiemaatregelen.  </p>
                <p class="pb-3">Kijk voor de meest recente voorwaarden op: <br /> <a href="https://isolatie.nijbegun.nl/" target="_blank" >www.isolatie.nijbegun.nl</a>  </p>
-               
+                
             </div>
          </div>
       </div>
